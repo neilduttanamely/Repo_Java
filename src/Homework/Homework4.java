@@ -23,7 +23,15 @@ public class Homework4<restLetters, firstLetter> {
          *      value of result1
          */
         String sentence1 = "hhhh";
-        System.out.println(sentence1);
+        int result1 = 4;
+
+        System.out.println("value of sentence1 = " + sentence1);
+
+        System.out.println("The length of my sentence1 -> " + sentence1 + "->" + sentence1.length());
+
+        String resultStatus = result1 >=10 ? "10" : "15";
+        System.out.println("value of result1 = " + resultStatus);
+
 
         /**
          * Task - 2
